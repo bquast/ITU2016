@@ -14,7 +14,7 @@
 </head>
 <body>
         
-  <div id="multibarchart"><svg style="width:500px;height:400px;"></svg></div>
+  <div id="multibarchart"><svg style="width:750px;height:600px;"></svg></div>
   
   <script>
     data_multibarchart=[{"values": 
@@ -124,9 +124,9 @@
         
       d3.select('#multibarchart svg')
         .datum(datum)
-        .transition().duration(500)
-        .attr('width', 500)
-        .attr('height', 400)
+        .transition().duration(750)
+        .attr('width', 750)
+        .attr('height', 600)
         .call(chart);
     });
   </script>
