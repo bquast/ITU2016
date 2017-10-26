@@ -1,135 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  
-  <title>ITU Annual Report 2016 - Intersectoral Objective 3</title>
-  
-  <meta charset="utf-8" />
 
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.min.css" rel="stylesheet" />
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.min.js"></script>
-  
-</head>
-<body>
-        
-  <div id="multibarchart"><svg style="width:750px;height:600px;"></svg></div>
-  
-  <script>
-    data_multibarchart=[{"values": 
-                         [{"x": "FG AC", "y": 0},
-                          {"x": "FG AVA", "y": 3},
-                          {"x": "FG CarCOM", "y": 3},
-                          {"x": "FG Cloud", "y": 4},
-                          {"x": "FG Distraction", "y": 3},
-                          {"x": "FG FN", "y": 4},
-                          {"x": "FG Innovation", "y": 0},
-                          {"x": "FG M2M", "y": 2},
-                          {"x": "FG Smart", "y": 2},
-                          {"x": "FG SmartCable", "y": 0},
-                          {"x": "FG SSC", "y": 16},
-                          {"x": "FG SWM", "y": 2},
-                          {"x": "FG DR&N RR", "y": 4}],
-                         "key": "Transposed",
-                         "yAxis": "1"},
-                        {"values": 
-                         [{"x": "FG AC", "y": 0},
-                          {"x": "FG AVA", "y": 0},
-                          {"x": "FG CarCOM", "y": 0},
-                          {"x": "FG Cloud", "y": 1},
-                          {"x": "FG Distraction", "y": 0},
-                          {"x": "FG FN", "y": 0},
-                          {"x": "FG Innovation", "y": 0},
-                          {"x": "FG M2M", "y": 0},
-                          {"x": "FG Smart", "y": 0},
-                          {"x": "FG SmartCable", "y": 0},
-                          {"x": "FG SSC", "y": 0},
-                          {"x": "FG SWM", "y": 0},
-                          {"x": "FG DR&N RR", "y": 0}],
-                         "key": "New Working Parties",
-                         "yAxis": "1"},
-                        {"values": 
-                         [{"x": "FG AC", "y": 1},
-                          {"x": "FG AVA", "y": 8},
-                          {"x": "FG CarCOM", "y": 0},
-                          {"x": "FG Cloud", "y": 4},
-                          {"x": "FG Distraction", "y": 3},
-                          {"x": "FG FN", "y": 4},
-                          {"x": "FG Innovation", "y": 1},
-                          {"x": "FG M2M", "y": 2},
-                          {"x": "FG Smart", "y": 2},
-                          {"x": "FG SmartCable", "y": 0},
-                          {"x": "FG SSC", "y": 16},
-                          {"x": "FG SWM", "y": 2},
-                          {"x": "FG DR&N RR", "y": 4}],
-                         "key": "New Working Items",
-                         "yAxis": "1"},
-                        {"values": 
-                         [{"x": "FG AC", "y": 0},
-                          {"x": "FG AVA", "y": 0},
-                          {"x": "FG CarCOM", "y": 0},
-                          {"x": "FG Cloud", "y": 0},
-                          {"x": "FG Distraction", "y": 0},
-                          {"x": "FG FN", "y": 0},
-                          {"x": "FG Innovation", "y": 0},
-                          {"x": "FG M2M", "y": 0},
-                          {"x": "FG Smart", "y": 0},
-                          {"x": "FG SmartCable", "y": 0},
-                          {"x": "FG SSC", "y": 1},
-                          {"x": "FG SWM", "y": 0},
-                          {"x": "FG DR&N RR", "y": 0}],
-                         "key": "New Study Groups",
-                         "yAxis": "1"},
-                        {"values": 
-                         [{"x": "FG AC", "y": 0},
-                          {"x": "FG AVA", "y": 0},
-                          {"x": "FG CarCOM", "y": 0},
-                          {"x": "FG Cloud", "y": 3},
-                          {"x": "FG Distraction", "y": 0},
-                          {"x": "FG FN", "y": 0},
-                          {"x": "FG Innovation", "y": 0},
-                          {"x": "FG M2M", "y": 0},
-                          {"x": "FG Smart", "y": 0},
-                          {"x": "FG SmartCable", "y": 0},
-                          {"x": "FG SSC", "y": 0},
-                          {"x": "FG SWM", "y": 0},
-                          {"x": "FG DR&N RR", "y": 0}],
-                         "key": "New Questions",
-                         "yAxis": "1"},
-                        {"values": 
-                         [{"x": "FG AC", "y": 5},
-                          {"x": "FG AVA", "y": 18},
-                          {"x": "FG CarCOM", "y": 1},
-                          {"x": "FG Cloud", "y": 7},
-                          {"x": "FG Distraction", "y": 5},
-                          {"x": "FG FN", "y": 6},
-                          {"x": "FG Innovation", "y": 2},
-                          {"x": "FG M2M", "y": 5},
-                          {"x": "FG Smart", "y": 5},
-                          {"x": "FG SmartCable", "y": 1},
-                          {"x": "FG SSC", "y": 21},
-                          {"x": "FG SWM", "y": 5},
-                          {"x": "FG DR&N RR", "y": 11}],
-                         "key": "Deliverables",
-                         "yAxis": "1"}
-                       ];
-    nv.addGraph(function() {
-      var chart = nv.models.multiBarHorizontalChart();
-        chart.margin({top: 30, right: 60, bottom: 20, left: 90});
-      var datum = data_multibarchart;
-        chart.yAxis
-          .tickFormat(d3.format(',.2f'));
-      chart.showLegend(true);
-        
-      d3.select('#multibarchart svg')
-        .datum(datum)
-        .transition().duration(750)
-        .attr('width', 750)
-        .attr('height', 600)
-        .call(chart);
-    });
-  </script>
+  <head>
 
-</body>
+    <title>ITU Annual Report 2016 - Intersectoral Objective 3</title>
+
+    <meta charset="utf-8" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.min.css" rel="stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.6/nv.d3.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <div id="multibarchart">
+      <svg style="width:750px;height:600px;"></svg>
+    </div>
+
+    <script>
+      d3.json('../data/I3.json', function(error, data) {
+        if (error) return console.error(error);
+        nv.addGraph(function() {
+          var chart = nv.models.multiBarHorizontalChart();
+          chart.margin({
+            top: 30,
+            right: 60,
+            bottom: 20,
+            left: 90
+          });
+          var datum = data;
+          chart.yAxis
+            .tickFormat(d3.format(',.2f'));
+          chart.showLegend(true);
+
+          d3.select('#multibarchart svg')
+            .datum(datum)
+            .transition().duration(750)
+            .attr('width', 750)
+            .attr('height', 600)
+            .call(chart);
+        });
+      });
+
+    </script>
+
+  </body>
+
 </html>
