@@ -1,248 +1,152 @@
 [{
   "values": [{
     "x": 0,
-    "y": 0,
-    "shape": "circle",
-    "size": "1"
+    "y": 0
   }, {
     "x": 1,
-    "y": 0,
-    "shape": "circle",
-    "size": "1"
+    "y": 0
   }, {
     "x": 2,
-    "y": 1,
-    "shape": "circle",
-    "size": "1"
+    "y": 1
   }, {
     "x": 3,
-    "y": 1,
-    "shape": "circle",
-    "size": "1"
+    "y": 1
   }, {
     "x": 4,
-    "y": 0,
-    "shape": "circle",
-    "size": "1"
+    "y": 0
   }, {
     "x": 5,
-    "y": 0,
-    "shape": "circle",
-    "size": "1"
+    "y": 0
   }, {
     "x": 6,
-    "y": 0,
-    "shape": "circle",
-    "size": "1"
+    "y": 0
   }, {
     "x": 7,
-    "y": 0,
-    "shape": "circle",
-    "size": "1"
+    "y": 0
   }, {
     "x": 8,
-    "y": 1,
-    "shape": "circle",
-    "size": "1"
+    "y": 1
   }, {
     "x": 9,
-    "y": 0,
-    "shape": "circle",
-    "size": "1"
+    "y": 0
   }, {
     "x": 10,
-    "y": 0,
-    "shape": "circle",
-    "size": "1"
+    "y": 0
   }, {
     "x": 11,
-    "y": 4,
-    "shape": "circle",
-    "size": "1"
+    "y": 4
   }, {
     "x": 12,
-    "y": 3,
-    "shape": "circle",
-    "size": "1"
+    "y": 3
   }, {
     "x": 13,
-    "y": 3,
-    "shape": "circle",
-    "size": "1"
+    "y": 3
   }, {
     "x": 14,
-    "y": 5,
-    "shape": "circle",
-    "size": "1"
+    "y": 5
   }, {
     "x": 15,
-    "y": 7,
-    "shape": "circle",
-    "size": "1"
+    "y": 7
   }, {
     "x": 16,
-    "y": 5,
-    "shape": "circle",
-    "size": "1"
+    "y": 5
   }, {
     "x": 17,
-    "y": 3,
-    "shape": "circle",
-    "size": "1"
+    "y": 3
   }, {
     "x": 18,
-    "y": 16,
-    "shape": "circle",
-    "size": "1"
+    "y": 16
   }, {
     "x": 19,
-    "y": 6,
-    "shape": "circle",
-    "size": "1"
+    "y": 6
   }, {
     "x": 20,
-    "y": 9,
-    "shape": "circle",
-    "size": "1"
+    "y": 9
   }, {
     "x": 21,
-    "y": 15,
-    "shape": "circle",
-    "size": "1"
+    "y": 15
   }, {
     "x": 22,
-    "y": 4,
-    "shape": "circle",
-    "size": "1"
+    "y": 4
   }, {
     "x": 23,
-    "y": 12,
-    "shape": "circle",
-    "size": "1"
+    "y": 12
   }],
   "key": "sine",
   "yAxis": "1"
 }, {
   "values": [{
     "x": 0,
-    "y": 9,
-    "shape": "cross",
-    "size": "10"
+    "y": 9
   }, {
     "x": 1,
-    "y": 8,
-    "shape": "cross",
-    "size": "10"
+    "y": 8
   }, {
     "x": 2,
-    "y": 11,
-    "shape": "cross",
-    "size": "10"
+    "y": 11
   }, {
     "x": 3,
-    "y": 8,
-    "shape": "cross",
-    "size": "10"
+    "y": 8
   }, {
     "x": 4,
     "y": 3,
-    "shape": "cross",
-    "size": "10"
   }, {
     "x": 5,
-    "y": 7,
-    "shape": "cross",
-    "size": "10"
+    "y": 7
   }, {
     "x": 6,
-    "y": 10,
-    "shape": "cross",
-    "size": "10"
+    "y": 10
   }, {
     "x": 7,
-    "y": 8,
-    "shape": "cross",
-    "size": "10"
+    "y": 8
   }, {
     "x": 8,
-    "y": 6,
-    "shape": "cross",
-    "size": "10"
+    "y": 6
   }, {
     "x": 9,
-    "y": 6,
-    "shape": "cross",
-    "size": "10"
+    "y": 6
   }, {
     "x": 10,
-    "y": 9,
-    "shape": "cross",
-    "size": "10"
+    "y": 9
   }, {
     "x": 11,
-    "y": 6,
-    "shape": "cross",
-    "size": "10"
+    "y": 6
   }, {
     "x": 12,
-    "y": 5,
-    "shape": "cross",
-    "size": "10"
+    "y": 5
   }, {
     "x": 13,
-    "y": 4,
-    "shape": "cross",
-    "size": "10"
+    "y": 4
   }, {
     "x": 14,
-    "y": 3,
-    "shape": "cross",
-    "size": "10"
+    "y": 3
   }, {
     "x": 15,
-    "y": 10,
-    "shape": "cross",
-    "size": "10"
+    "y": 10
   }, {
     "x": 16,
-    "y": 0,
-    "shape": "cross",
-    "size": "10"
+    "y": 0
   }, {
     "x": 17,
-    "y": 6,
-    "shape": "cross",
-    "size": "10"
+    "y": 6
   }, {
     "x": 18,
-    "y": 3,
-    "shape": "cross",
-    "size": "10"
+    "y": 3
   }, {
     "x": 19,
-    "y": 1,
-    "shape": "cross",
-    "size": "10"
+    "y": 1
   }, {
     "x": 20,
-    "y": 0,
-    "shape": "cross",
-    "size": "10"
+    "y": 0
   }, {
     "x": 21,
-    "y": 0,
-    "shape": "cross",
-    "size": "10"
+    "y": 0
   }, {
     "x": 22,
-    "y": 0,
-    "shape": "cross",
-    "size": "10"
+    "y": 0
   }, {
     "x": 23,
-    "y": 1,
-    "shape": "cross",
-    "size": "10"
+    "y": 1
   }],
   "key": "cose",
   "yAxis": "1"
